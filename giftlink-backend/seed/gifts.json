@@ -1,0 +1,114 @@
+;'//[
+  {
+    "name": "Red Roses Bouquet",
+    "category": "flowers",
+    "description": "A beautiful bouquet of fresh red roses, perfect for expressing love.",
+    "price": 25.99,
+    "image": "https://placehold.co/300x300/rose.png"
+  },
+  {
+    "name": "Chocolate Gift Box",
+    "category": "chocolates",
+    "description": "Premium assorted chocolates in a decorative gift box.",
+    "price": 19.99,
+    "image": "https://placehold.co/300x300/chocolate.png"
+  },
+  {
+    "name": "Smart Watch",
+    "category": "gadgets",
+    "description": "A stylish smartwatch with fitness tracking and notifications.",
+    "price": 149.99,
+    "image": "https://placehold.co/300x300/smartwatch.png"
+  },
+  {
+    "name": "Diamond Earrings",
+    "category": "jewelry",
+    "description": "Elegant diamond stud earrings for special occasions.",
+    "price": 299.99,
+    "image": "https://placehold.co/300x300/earrings.png"
+  },
+  {
+    "name": "Teddy Bear",
+    "category": "toys",
+    "description": "A cute and cuddly teddy bear, soft and huggable.",
+    "price": 15.99,
+    "image": "https://placehold.co/300x300/teddy.png"
+  },
+  {
+    "name": "Cookbook",
+    "category": "books",
+    "description": "A recipe book filled with delicious and easy-to-cook meals.",
+    "price": 12.5,
+    "image": "https://placehold.co/300x300/cookbook.png"
+  },
+  {
+    "name": "Perfume Bottle",
+    "category": "fragrance",
+    "description": "A luxury perfume with a long-lasting floral scent.",
+    "price": 59.99,
+    "image": "https://placehold.co/300x300/perfume.png"
+  },
+  {
+    "name": "Coffee Mug",
+    "category": "home",
+    "description": "Ceramic coffee mug with a modern minimalist design.",
+    "price": 8.99,
+    "image": "https://placehold.co/300x300/mug.png"
+  },
+  {
+    "name": "Bluetooth Speaker",
+    "category": "electronics",
+    "description": "Portable wireless speaker with high-quality sound.",
+    "price": 45.0,
+    "image": "https://placehold.co/300x300/speaker.png"
+  },
+  {
+    "name": "Yoga Mat",
+    "category": "fitness",
+    "description": "Non-slip yoga mat ideal for workouts and meditation.",
+    "price": 20.0,
+    "image": "https://placehold.co/300x300/yogamat.png"
+  },
+  {
+    "name": "Scented Candle",
+    "category": "home",
+    "description": "Relaxing lavender-scented candle in a glass jar.",
+    "price": 14.99,
+    "image": "https://placehold.co/300x300/candle.png"
+  },
+  {
+    "name": "Leather Wallet",
+    "category": "fashion",
+    "description": "Premium leather wallet with multiple compartments.",
+    "price": 39.99,
+    "image": "https://placehold.co/300x300/wallet.png"
+  },
+  {
+    "name": "Board Game",
+    "category": "toys",
+    "description": "A fun strategy board game for family and friends.",
+    "price": 29.99,
+    "image": "https://placehold.co/300x300/boardgame.png"
+  },
+  {
+    "name": "Handmade Scarf",
+    "category": "fashion",
+    "description": "A cozy handmade wool scarf to keep you warm.",
+    "price": 22.0,
+    "image": "https://placehold.co/300x300/scarf.png"
+  },
+  {
+    "name": "Gift Card",
+    "category": "vouchers",
+    "description": "A versatile gift card usable at multiple stores.",
+    "price": 50.0,
+    "image": "https://placehold.co/300x300/giftcard.png"
+  },
+  {
+    "name": "Laptop Sleeve",
+    "category": "accessories",
+    "description": "Protective laptop sleeve with soft lining and zipper.",
+    "price": 18.75,
+    "image": "https://placehold.co/300x300/laptopsleeve.png"
+  }
+]

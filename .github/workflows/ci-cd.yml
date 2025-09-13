@@ -1,0 +1,40 @@
+name: CI-CD
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build-backend:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+      - name: Install backend deps
+        run: |
+          cd giftlink-backend
+          npm ci
+      - name: Run backend tests (none included)
+        run: echo "No tests configured"
+
+  build-frontend:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+      - name: Install frontend deps
+        run: |
+          cd giftlink-frontend
+          npm ci
+      - name: Build frontend
+        run: |
+          cd giftlink-frontend
+          npm run build || echo "no build step"

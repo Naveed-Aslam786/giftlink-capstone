@@ -1,0 +1,32 @@
+giftlink-capstone/
+├── .github/
+│   ├── ISSUE_TEMPLATE/
+│   │   └── user-story.md
+│   └── workflows/
+│       └── ci-cd.yml
+├── giftlink-backend/
+│   ├── models/
+│   │   └── db.js
+│   ├── routes/
+│   │   ├── authRoutes.js
+│   │   ├── giftRoutes.js
+│   │   └── searchRoutes.js
+│   ├── sentiment/
+│   │   └── index.js
+│   ├── app.js
+│   ├── server.js
+│   ├── package.json
+│   └── Dockerfile
+├── giftlink-frontend/
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── LandingPage/LandingPage.js
+│   │   │   ├── LoginPage/LoginPage.js
+│   │   │   ├── RegisterPage/RegisterPage.js
+│   │   │   ├── MainPage/MainPage.js
+│   │   │   └── GiftDetails/GiftDetails.js
+│   │   └── App.js
+│   ├── package.json
+│   └── Dockerfile
+├── README.md
+└── .gitignore
