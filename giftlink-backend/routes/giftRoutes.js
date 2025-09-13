@@ -1,7 +1,7 @@
 import { Router } from 'express';
 import { connectToDatabase } from '../models/db.js';
 
-const router = Router();
+const router = express.Router();
 
 // Get all gifts
 router.get('/', async (req, res) => {
